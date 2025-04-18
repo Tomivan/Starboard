@@ -1,4 +1,12 @@
 import React from 'react';
+import Home from '../../assets/images/home.svg';
+import Heights from '../../assets/images/height.svg';
+import Column from '../../assets/images/column.svg';
+import Parking from '../../assets/images/parking.svg';
+import Tenant from '../../assets/images/person-standing.svg';
+import Year from '../../assets/images/year.svg';
+import Truck from '../../assets/images/truck.svg';
+import Seaward from '../../assets/images/seaward.svg';
 import './summary.component.css';
 
 const Summary = () => {
@@ -20,60 +28,64 @@ const Summary = () => {
             </div>
             <div className="summary-right">
                 <p>Asset-Level Data</p>
-                <div className="data">
-                    <img src='' alt='' className='icon' />
-                    <div className="data-info">
-                        <p>Clear Heights</p>
-                        <p><strong>36</strong></p>
+                <div className="data-left">
+                    <div className="data">
+                        <img src={Heights} alt='' className='icon' />
+                        <div className="data-info">
+                            <p>Clear Heights</p>
+                            <p><strong>36</strong></p>
+                        </div>
+                    </div>
+                    <div className="data">
+                        <img src={Column} alt='' className='icon' />
+                        <div className="data-info">
+                            <p>Column Spacing</p>
+                            <p><strong>63' X 54'</strong></p>
+                        </div>
+                    </div>
+                    <div className="data">
+                        <img src={Parking} alt='' className='icon' />
+                        <div className="data-info">
+                            <p>Parking Spaces</p>
+                            <p><strong>393</strong></p>
+                        </div>
+                    </div>
+                    <div className="data">
+                        <img src={Truck} alt='' className='icon' />
+                        <div className="data-info">
+                            <p># of Dock Doors</p>
+                            <p><strong>28</strong></p>
+                        </div>
                     </div>
                 </div>
-                <div className="data">
-                    <img src='' alt='' className='icon' />
-                    <div className="data-info">
-                        <p>Clear Heights</p>
-                        <p><strong>36</strong></p>
+                <div className="data-right">
+                    <div className="data">
+                        <img src={Tenant} alt='' className='icon' />
+                        <div className="data-info">
+                            <p>Tenants</p>
+                            <p><strong>Amazon</strong></p>
+                        </div>
                     </div>
-                </div>
-                <div className="data">
-                    <img src='' alt='' className='icon' />
-                    <div className="data-info">
-                        <p>Clear Heights</p>
-                        <p><strong>36</strong></p>
+                    <div className="data">
+                        <img src={Seaward} alt='' className='icon' />
+                        <div className="data-info">
+                            <p>Seaward Area</p>
+                            <p><strong>357,151 sqft</strong></p>
+                        </div>
                     </div>
-                </div>
-                <div className="data">
-                    <img src='' alt='' className='icon' />
-                    <div className="data-info">
-                        <p>Clear Heights</p>
-                        <p><strong>36</strong></p>
+                    <div className="data">
+                        <img src={Year} alt='' className='icon' />
+                        <div className="data-info">
+                            <p>Year Built</p>
+                            <p><strong>2021</strong></p>
+                        </div>
                     </div>
-                </div>
-                <div className="data">
-                    <img src='' alt='' className='icon' />
-                    <div className="data-info">
-                        <p>Clear Heights</p>
-                        <p><strong>36</strong></p>
-                    </div>
-                </div>
-                <div className="data">
-                    <img src='' alt='' className='icon' />
-                    <div className="data-info">
-                        <p>Clear Heights</p>
-                        <p><strong>36</strong></p>
-                    </div>
-                </div>
-                <div className="data">
-                    <img src='' alt='' className='icon' />
-                    <div className="data-info">
-                        <p>Clear Heights</p>
-                        <p><strong>36</strong></p>
-                    </div>
-                </div>
-                <div className="data">
-                    <img src='' alt='' className='icon' />
-                    <div className="data-info">
-                        <p>Clear Heights</p>
-                        <p><strong>36</strong></p>
+                    <div className="data">
+                        <img src={Home} alt='' className='icon' />
+                        <div className="data-info">
+                            <p>Occupancy Rate</p>
+                            <p><strong>100%</strong></p>
+                        </div>
                     </div>
                 </div>
             </div>

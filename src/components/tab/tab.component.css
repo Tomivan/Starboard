@@ -1,0 +1,45 @@
+.tab {
+    padding: 1em;
+    display: flex;
+}
+.image{
+    width: 20%;
+}
+.details {
+    margin-left: 5%;
+    width: 75%;
+}
+.details-top {
+    display: flex;
+    justify-content: space-between;
+}
+.details-bottom {
+    display: flex;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+.export,.generate {
+    background: #000000;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: .5em;
+    margin-bottom: 3%;
+}
+.info{
+    margin-right: 2%;
+    width: 11vw;
+}
+.info:nth-child(2) {
+    width: 12vw;
+}
+.info:nth-child(3){
+    width: 15vw ;
+}
+.info .top {
+    display: flex;
+}
+.info-image {
+    padding-right: .5em;
+}

@@ -13,7 +13,7 @@ const Navbar = () => {
                 <li>Settings</li>
             </ul>
             <div className="search">
-                <img src={Avatar} alt='' className=''/>
+                <img src={Avatar} alt='' className='avatar'/>
                 <input type='search' placeholder='Ask me anything' className='search' />
             </div>
             <img src={Logo} alt='' className='logo' />

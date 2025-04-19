@@ -1,0 +1,28 @@
+.summary{
+    padding: 1em;
+    display: flex;
+}
+.summary-left {
+    padding-right: 1em;
+    border-right: 1px solid #0000001e;
+}
+.summary-right{
+   text-align: center;
+   margin-left: 10%;
+}
+.asset-data {
+    display: flex;
+}
+.data {
+    display: flex;
+    width: 15vw;
+    text-align: left;
+}
+.data-right {
+    margin-left: 5%;
+}
+.icon {
+    height: 44px;
+    padding-right: .5em;
+    padding-top: .8em;
+}

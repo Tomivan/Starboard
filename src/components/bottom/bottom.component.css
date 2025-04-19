@@ -1,0 +1,17 @@
+.bottom {
+    display: flex;
+    padding: 1em;
+}
+.bottom strong{
+    font-size: 16px;
+}
+.supply-pipeline{
+    display: flex;
+    flex-direction: column;
+}
+.sales-left, .sales-right{
+    display: flex;
+}
+.address, .address-details-1{
+    display: flex;
+}

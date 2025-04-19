@@ -1,0 +1,9 @@
+.overview-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.industrial {
+    background: #f4f4f5;
+    padding: .5em;
+}
